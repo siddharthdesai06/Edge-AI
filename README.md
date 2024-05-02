@@ -27,8 +27,8 @@ The dataset is organized into training and validation sets, each containing four
 
 ## Running the code:
 
-1) Run the Video_dataset_creation file and give the number of images you need.
-2) Run the emotion.py file to create the model, train it and saave the .pt file
+1) Run the Video_dataset_creation.ipynb file and give the number of images you need.
+2) Run the emotion.ipynb file to create the model, train it and saave the .pt file
 3) Connect the raspberry pi, camera module and USB microphone to the pi 4
 4) Upload the .pt file in your raspberry pi 4 along with the inference_video.py and inference_audio.py
 5) On the terminal go in the particular directory and to run both the files use python inference_video.py for running the video model. (Also give the .pt file path)
